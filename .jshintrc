@@ -32,7 +32,7 @@
     "browser": true,
     "node": true,
     "devel": true,
-    "esnext": true,
+    "esnext": false,
     "strict": false,
     "globals": {
         "angular": false
