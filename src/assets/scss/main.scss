@@ -1,3 +1,27 @@
 body {
-    color: black;
+    background: #010712;
+    color: #fff;
+    margin: 0;
+}
+
+.ScrollPanel {
+    position: relative;
+}
+
+.ScrollPanel-Header {
+    position: fixed;
+    z-index: 1;
+    background: #24262D;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 35vh;
+}
+
+.ScrollPanel-Content {
+    background: #010712;
+    position: relative;
+    z-index: 2;
+    top: 35vh;
 }

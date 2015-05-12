@@ -19,7 +19,7 @@ module.exports = {
         assets: "./public/assets"
     },
     file: {
-        normalize: "./bower_components/normalize.css/normalize.css"
+        normalize: "./node_modules/normalize.css/normalize.css"
     },
 
     browsers: ["last 2 versions"]
